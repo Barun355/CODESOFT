@@ -21,11 +21,11 @@ export class Service{
                 conf.appwriteCollectionId,
                 slug,
                 {
-                    title,
+                    userID: userId,
                     content,
                     featuredImage,
+                    title,
                     status,
-                    userId,
                 }
             )
         } catch (error) {
